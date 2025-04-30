@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shop Trailers – Fast Quotes on Facebook</title>
+  
+  <!-- ✅ Facebook Pixel Tracking (replace with actual Pixel ID) -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src='https://connect.facebook.net/en_US/fbevents.js';
+    s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script');
+    fbq('init', 'YOUR_PIXEL_ID'); // ← Replace with your actual Facebook Pixel ID
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"
+  /></noscript>
+  
+  <!-- ✅ Google Tag (optional) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX'); // ← Replace with your GA4 ID
+  </script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 1.8em;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .hero {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    .cta-button {
+      background: #1877F2;
+      color: #fff;
+      text-decoration: none;
+      text-align: center;
+      padding: 15px;
+      border-radius: 6px;
+      display: block;
+      font-size: 1.2rem;
+      margin: 20px 0;
+    }
+    ul.selling-points {
+      padding: 0;
+      list-style: none;
+    }
+    ul.selling-points li {
+      margin: 10px 0;
+      padding-left: 20px;
+      position: relative;
+    }
+    ul.selling-points li::before {
+      content: "✔️";
+      position: absolute;
+      left: 0;
+    }
+    .testimonials {
+      margin-top: 30px;
+      font-style: italic;
+      color: #555;
+    }
+    .footer-cta {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: #1877F2;
+      padding: 15px;
+      text-align: center;
+    }
+    .footer-cta a {
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Looking for a Quality Trailer at the Right Price?</h1>
+  <img src="your-trailer-image.jpg" alt="Trailers for sale" class="hero" />
+
+  <a href="https://m.me/YourFacebookPageName" 
+     class="cta-button"
+     onclick="fbq('track', 'Contact');">
+     📩 Message Us on Facebook
+  </a>
+
+  <ul class="selling-points">
+    <li>Over 200 trailers in stock</li>
+    <li>Family-owned since 1995</li>
+    <li>Nationwide delivery available</li>
+    <li>Fast response via Facebook Messenger</li>
+  </ul>
+
+  <div class="testimonials">
+    ⭐ “Great service and fast delivery!” — Bob T.<br />
+    ⭐ “Got my gooseneck trailer in 3 days!” — Sarah P.
+  </div>
+
+  <p style="text-align: center; margin-top: 20px;">
+    ⏳ Trailers go fast — message us today!
+  </p>
+</div>
+
+<div class="footer-cta">
+  <a href="https://m.me/YourFacebookPageName" onclick="fbq('track', 'Contact');">
+    📩 Message Us on Facebook
+  </a>
+</div>
+
+</body>
+</html>
